@@ -1,3 +1,4 @@
+/*Inicio*/
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
@@ -7,13 +8,14 @@ body {
 h1 {
     font-size: 2.5em;
 }
-
+/*El diseño del cuadro azul*/
 #contenedor {
-    width: 80%;
-    border: 3px solid #f3f3f3;
+    width: 93%;
+    border: 3px solid #fdfdfd;
     padding: 20px;
-    margin-top: 10px;
-    background-color: #4b7f99;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #42799e;
 }
 
 #menu {
@@ -35,17 +37,17 @@ h1 {
     background-color: #007cb9;
     padding: 5px;
 }
-
+/*Este es el tamaño del cuadro azul*/
 #contenido {
-    height: 300px;
+    height: 400px;
 }
-
+/*La imagen que esta en contactos*/
 .img2 {
     height: 200px;
     border: 1px solid #d5eeff;
     float: right;
 }
-
+ /*El cuadro que esta al ultimo dice mi nombre*/
 #final {
     font-family: 'Courier New', Courier, monospace;
     font-size: 0.75em;
@@ -54,6 +56,7 @@ h1 {
     padding: 10px;
 }
 
+/* Css de Logotipos de las aplicaciones de los contactos */
 #logotipos  {
     display: flex;  
     gap: 20px; 
@@ -77,7 +80,7 @@ h1 {
     color: #ffffff; 
 }
 
-
+/*Este es el apartado de articulo*/
 #zona-encabezado {
     width: 85%;
     color: #d6fdf3;
@@ -105,10 +108,11 @@ h1 {
     text-align: justify;
     color: #0b1d86;
 }
+/*Esto es para el tamaño de las 3 imagenes que estan en el articulo*/
 .img3 {
     width: 30%;
 }
-
+/*Texto del articulo*/
 .texto1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 85%;
@@ -117,6 +121,7 @@ h1 {
     color: rgb(57, 99, 34);
     text-align: justify;
 }
+/*Texto del articulo*/
 .texto-final {
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -126,9 +131,11 @@ h1 {
     text-align: justify;
     color: #634258;
 }
+/*Lo utilize para el fondo del artculo*/
 .head {
     background-color: #86eba4;
 }
+/*Texto que esta en el blog*/
 .textbloc {
     text-align: justify;
     width: 300px;
