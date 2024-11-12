@@ -1,142 +1,109 @@
-/*Inicio*/
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
-    background-color: #86eba4;
+/* Estilos para el encabezado */
+.body1 {
+    background-color: #2252b9; 
+    color: #ffffff; 
 }
-
-h1 {
-    font-size: 2.5em;
+/* Logotipo */
+/* Apartado del Index*/
+.headerLogo {
+    width: 130px;
+    height: auto;
 }
-/*El diseño del cuadro azul*/
-#contenedor {
-    width: 93%;
-    border: 3px solid #fdfdfd;
-    padding: 20px;
-    margin-top: 5px;
-    margin-left: 5px;
-    background-color: #42799e;
+.texto{
+    text-align: left;
+    font-size: large;
 }
-
-#menu {
-    color: #5071cc;
-    background-color: #aad482;
-    padding: 10px;
-    border: 1px solid #0099ff;
+.nav-link.active{
+    background-color: #0a1866;
+    box-shadow: 0px 4px 10px rgba(49, 57, 66, 0.5); 
 }
-
-#menu a,
-#menu a:visited {
-    color: #215557;
-    text-decoration: none;
-    padding: 5px;
-}
-
-#menu a:hover {
-    color: rgb(255, 255, 255);
-    background-color: #007cb9;
-    padding: 5px;
-}
-/*Este es el tamaño del cuadro azul*/
-#contenido {
-    height: 400px;
-}
-/*La imagen que esta en contactos*/
-.img2 {
-    height: 200px;
-    border: 1px solid #d5eeff;
-    float: right;
-}
- /*El cuadro que esta al ultimo dice mi nombre*/
-#final {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.75em;
-    color: #005689;
-    background-color: #87e1f8;
-    padding: 10px;
-}
-
-/* Css de Logotipos de las aplicaciones de los contactos */
-#logotipos  {
+.parrafo{
+    font-size:2rem; 
+    color: #363636; 
+    line-height:1.2;
+    
+} 
+#redesociales {
     display: flex;  
     gap: 20px; 
     padding: 20px 0; 
-    text-align: center; 
+    text-align: left; 
 }
 
-#logotipos  div {
-    text-align: center;
-}
-
-#logotipos img.logotipo {
+#redesociales img.logotipo {
     width: 50px; 
     height: auto;
 }
 
-#logotipos p {
-    margin: 0;
-    font-family: Verdana, sans-serif;
-    font-size: 14px;
-    color: #ffffff; 
+.logos-list {
+    list-style: none; 
+    flex-wrap: wrap; /* Hace que los elementos se acomoden cuando la pantalla sea pequeña */
+    justify-content: center;
 }
 
-/*Este es el apartado de articulo*/
-#zona-encabezado {
-    width: 85%;
-    color: #d6fdf3;
-    background-color: #abb3e4da;
+.logosdemarcas {
+    width: 80px; 
+    height: auto; 
+    margin: 2px; 
 }
-#zona-imagenes {
-    width: 85%;
-    background-color: #60aabd;
-    text-align: center;
-}
-#zona-cuerpo {
-    width: 85%;
-    color: #7e6555f5;
-    background-color: #ded3f5;
+/* Fin del Index*/
+
+
+/* Nosotros */
+.cuadro {
+    border: 1px solid #2252b9; 
+    padding: 10px; 
+    border: 3px solid #2252b9; 
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; 
+    margin-bottom: 50px; 
 }
 #zona-final {
-    width: 85%;
-    color: #38598b;
-    background-color: #f1a9a9;
-    font-size: 12pt;
+    width: 100% auto;
+    color: #ffffff;
+    background-color: #2252b9;
 }
-.texto {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 85%;
-    text-align: justify;
-    color: #0b1d86;
-}
-/*Esto es para el tamaño de las 3 imagenes que estan en el articulo*/
-.img3 {
-    width: 30%;
-}
-/*Texto del articulo*/
-.texto1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 85%;
-    font-size: 10pt;
-    font-weight: bold;
-    color: rgb(57, 99, 34);
-    text-align: justify;
-}
-/*Texto del articulo*/
-.texto-final {
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 85%;
-    font-size: 10pt;
-    font-weight: bold;
-    text-align: justify;
-    color: #634258;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-color { 
+	background: #f6f6f6; 
 }
-/*Lo utilize para el fondo del artculo*/
-.head {
-    background-color: #86eba4;
+	
+.second-color { 
+	background: #d6e4f0; 
 }
-/*Texto que esta en el blog*/
-.textbloc {
-    text-align: justify;
-    width: 300px;
+
+.third-color { 
+	background: #295ab6; 
 }
